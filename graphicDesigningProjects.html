@@ -2,13 +2,20 @@
 <html>
 <head>
 <style>
-div.gallery {
-  border: 1px solid #ccc;
+
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+.flex-container {
+  display: flex;
+    }
+
+.flex-container > div {
+ 
 }
 
-div.gallery:hover {
-  border: 1px solid #777;
-}
 
 div.gallery img {
   width: 100%;
@@ -26,7 +33,7 @@ div.desc {
 
 .responsive {
   padding: 0 6px;
-  float: left;
+ /* float: left;*/
   width: 24.99999%;
 }
 
@@ -43,62 +50,181 @@ div.desc {
   }
 }
 
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
+.footer {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 10px;
 }
+
 </style>
 </head>
 <body>
+    <div class="header">
+        <h1>Designs By Maruful Tonmoy</h1>
+      </div>
 
-<h2>Responsive Image Gallery</h2>
+<p>
+<h3>Photo Manipulation</h3>
 
-<h4>Resize the browser window to see the effect.</h4>
-
+             <a target="_blank" href="assets/img/NMED.jpg">
+            <img src="assets/img/NMED.jpg" alt="strokes" width="80%" height="400">
+          </a>
+          <div class="desc">Before & after</div>
+    <p></p>
+    <p></p>
+<div class="flex-container">
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="img_5terre.jpg">
-      <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
+    <a target="_blank" href="assets/img/design1.jpg">
+      <img src="assets/img/design1.jpg" alt="strokes" width="600" height="400">
     </a>
-    <div class="desc">Add a description of the image here</div>
-  </div>
-</div>
-
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="img_forest.jpg">
-      <img src="img_forest.jpg" alt="Forest" width="600" height="400">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="img_lights.jpg">
-      <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
-    </a>
-    <div class="desc">Add a description of the image here</div>
+    <div class="desc">Brush strokes</div>
   </div>
 </div>
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="img_mountains.jpg">
-      <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+    <a target="_blank" href="assets/img/design2.jpg">
+      <img src="assets/img/design2.jpg" alt="skull" width="600" height="400">
     </a>
-    <div class="desc">Add a description of the image here</div>
+    <div class="desc">human skull</div>
   </div>
 </div>
 
-<div class="clearfix"></div>
+<div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="assets/img/design3.jpg">
+        <img src="assets/img/design3.jpg" alt="Northern Lights" width="600" height="400">
+      </a>
+      <div class="desc">Add a description of the image here</div>
+    </div>
+  </div>
 
-<div style="padding:6px;">
-  <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
-  <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="assets/img/design4.jpg">
+        <img src="assets/img/design4.jpg" alt="Northern Lights" width="600" height="400">
+      </a>
+      <div class="desc">Add a description of the image here</div>
+    </div>
+  </div>
+</div>
+</p>
+
+<div class="flex-container">
+<h3>Typography</h3>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="assets/img/typo2.jpg">
+      <img src="assets/img/typo2.jpg" alt="Robert Noyce" width="600" height="400">
+    </a>
+    <div class="desc">Mayor of Silicon Valley</div>
+  </div>
 </div>
 
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="assets/img/typo3.jpg">
+      <img src="assets/img/typo3.jpg" alt="Jeff Bezos" width="600" height="400">
+    </a>
+    <div class="desc">Amazon Giant</div>
+  </div>
+</div>
+
+
+
+
+<h3>banners</h3>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="/assets/img/typo1.jpg">
+        <img src="/assets/img/typo1.jpg" alt="Modificators" width="600" height="400">
+      </a>
+      <div class="desc">Modificators</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="/assets/img/banner1.jpg">
+        <img src="/assets/img/banner1.jpg" alt="Farewell Banner" width="600" height="400">
+      </a>
+      <div class="desc">Farewell Ceremony Design</div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="flex-container">
+<h3>Posters</h3>    
+<div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="/assets/img/wallpaper1.jpg">
+        <img src="/assets/img/wallpaper1.jpg" alt="Battlefield poster" width="600" height="400">
+      </a>
+      <div class="desc">Battlefield Game poster</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="/assets/img/wallpaper2.jpg">
+        <img src="/assets/img/wallpaper2.jpg" alt="Battlefield poster2" width="600" height="400">
+      </a>
+      <div class="desc">Game poster</div>
+    </div>
+  </div>
+
+  
+<h3>Morph</h3>
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="assets/img/design5.jpg">
+        <img src="assets/img/design5.jpg" alt="FnF" width="600" height="400">
+      </a>
+      <div class="desc">Paul Walker</div>
+    </div>
+  </div>
+</div>
+
+<div class="flex-container">
+    <h3>Product Design</h3>    
+    <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="/assets/img/product1.jpg">
+            <img src="/assets/img/product1.jpg" alt="Tshirt Design" width="600" height="400">
+          </a>
+          <div class="desc">Tshirt Design</div>
+        </div>
+      </div>
+    
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="/assets/img/product2.jpg">
+            <img src="/assets/img/product2.jpg" alt="Cardboard" width="600" height="400">
+          </a>
+          <div class="desc">Cardboard</div>
+        </div>
+      </div>
+    
+      
+    <h3>Digital Art</h3>
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="assets/img/earth.jpg">
+            <img src="assets/img/earth.jpg" alt="Earth" width="600" height="400">
+          </a>
+          <div class="desc">Earth</div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+        <p>Copyright @ Maruful Tonmoy</p>
+      </div>
 </body>
 </html>
